@@ -25,7 +25,7 @@ void OsdProcess()
 	
 	if(MenuPtr.Op == 0)
 		return;
-	
+	/*
 	printf("menu= %d \n",(unsigned short)MenuPtr.Menu);
 	printf("Level= %d \n",(unsigned short)MenuPtr.Level);
 	printf("Op= %d \n",(unsigned short)MenuPtr.Op);
@@ -33,7 +33,7 @@ void OsdProcess()
 	printf("Ptr= %d \n",(unsigned short)MenuPtr.Ptr);
 	printf("FuncPtr=%d\n",(unsigned short)FuncPtr);
 	printf("\n");
-	
+	*/
 	
 
 	if(MenuPtr.Menu == MenuType_General)
@@ -176,7 +176,7 @@ void OsdProcess()
 	MenuPtr.Op = 0;
 	
 }
-/*
+
 void ShowSyncMode()
 {
 	Byte code ENG_ANALOG[]={
@@ -299,7 +299,7 @@ code unsigned char *SourceTab[][9]={
 	if(MenuPtr.Level == 1) 
 		Osd_On(enWIN4);
 }
-*/
+
 #if 0
 /********************************************************************************
 ** name		: kevin 
