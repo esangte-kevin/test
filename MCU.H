@@ -3,7 +3,7 @@
 
 extern code unsigned char KeyTab[];
 
-#define CPU_CLK 12000000*2//unit Mhz
+#define CPU_CLK 14000000*2//unit Mhz
 
 void InitMCU(void);
 void Timer0(void);
