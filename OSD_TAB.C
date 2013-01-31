@@ -4,7 +4,7 @@
 
 #if OSD_ENABLE
 
-Word code Palette1Bit[13]={clBLACK,clBLACK,clRED,clGREEN,clBLUE,clCYAN,clMAGENTA,clYELLOW,
+Word code Palette1Bit[13]={clRED,clBLACK,clRED,clGREEN,clBLUE,clCYAN,clMAGENTA,clYELLOW,
 						 clWHITE,clDGREEN,clGRAY,clLIGHT,clLBLUE};
 
 Byte code OneBitFont[129*27]={
